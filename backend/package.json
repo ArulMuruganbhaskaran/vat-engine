@@ -1,0 +1,26 @@
+{
+  "name": "vat-engine-backend",
+  "version": "0.1.0",
+  "description": "VAT Engine for UK & EU Digital Products - Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": ["vat", "tax", "uk", "eu", "digital-products"],
+  "author": "Arul Murugan S B",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
+}
